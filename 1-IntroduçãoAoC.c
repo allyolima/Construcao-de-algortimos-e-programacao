@@ -17,6 +17,6 @@ void main () {
      printf ("Digite um numero: ");
      scanf ("%d", &num);
 
-     pintf ("o numero digitado foi %d", num )
+     pintf ("o numero digitado foi %d", num );
 
  }

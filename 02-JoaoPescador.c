@@ -1,4 +1,4 @@
-#include <stdlib>
+#include <stdlib.h>
 #include <stdio.h>
 
 void main (){
@@ -10,7 +10,6 @@ seu trabalho. Toda vez que ele traz um peso de peixe maior que o estabelecimento
 do estado de São Paulo (50 quilos) deve pagar uma multa de de R$4,00 por kilo excedente. João precisa que 
 você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar a variável 
 excesso a quantidade de kilos além do limite e na variável multa o valor da multa que João deverá pagar.
-Imprima os dados do programa com as mensagens adequadas 
 
 */
     float pesoTotal, excessoPeso, totalPagar;
@@ -26,15 +25,15 @@ Imprima os dados do programa com as mensagens adequadas
         
         excessoPeso = pesoTotal - 50;
         totalPagar = excessoPeso * 4;
-        pintf("Excesso de peso= %.2f \n",excessoPeso)
-        pintf("Total a pagar= %.2f \n",totalPagar);
+        printf("Excesso de peso= %.2f \n",excessoPeso);
+        printf("Total a pagar= %.2f \n",totalPagar);
     }else{   
-        pintf("voce nao precisa pagar multa. ")
+        printf("voce nao precisa pagar multa. ");
 
     }
     
     //Saida de dados
-     pintf("o peso digitado foi %.2f",pesoTotal);
+     printf("o peso digitado foi %.2f",pesoTotal);
 
 
 }
