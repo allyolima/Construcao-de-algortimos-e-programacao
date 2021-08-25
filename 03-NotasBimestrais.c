@@ -16,7 +16,7 @@ void main (){
     scanf("%f", &primeiroBimestre);
     printf("Digite a nota do segundo bimestre:  ");
     scanf("%f", &segundoBimestre);
-    printf("Digite a nota do terceiro bimestre");
+    printf("Digite a nota do terceiro bimestre: ");
     scanf("%f", &terceiroBimestre);
     printf("Digite a nota do quarto bimestre:  ");
     scanf("%f", &quartoBimestre);
